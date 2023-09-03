@@ -1,0 +1,62 @@
+body{
+    background-color: rgba(15, 10, 20, 0.876);
+    background-image: url(https://i.pinimg.com/564x/72/07/9b/72079b61b08f11b6163b1376e0d35731.jpg);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    -webkit-filter: blur(1px);
+    filter: blur();
+    background-blend-mode: screen;
+    
+  
+}
+h1{
+    color: rgb(36, 1, 1);
+}
+
+#CajitaDelMedio{
+    margin: 10%;
+    background-color: rgba(153, 153, 153, 0.652);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    padding: 2%;
+    box-shadow: 10px 10px 10px 1px;
+}
+
+#calcular{
+   width: 20%;
+   height: 40px;
+   border-radius: 40px; 
+   background-color: rgb(178, 48, 48);
+   margin-left: 30%;
+   margin-top: 10%;
+   border-style: groove;
+}
+#calcular:hover{
+    background-color: rgb(119, 119, 230);
+    cursor: pointer;
+}
+#MinutoACT{
+    border-radius: 4px; 
+    background-color: rgba(221, 238, 238, 0.188);
+    border-style: groove;
+}
+#MinutoSuma{
+    border-radius: 4px; 
+    background-color: rgba(221, 238, 238, 0.188);
+    border-style: groove;
+}
+
+#PuntoDeSalto{
+    margin-right: 112px;
+    border-radius: 4px;
+    background-color: rgba(255, 8, 8, 0.485);
+
+}
+#minutoResultante{
+    margin-right: 30px;
+}
